@@ -1,3 +1,3 @@
-import { theAnswer } from "./lib";
+import { Environment } from "./environment";
 
-console.log(`The answer is ${theAnswer}!`);
+console.log(`The answer is ${Environment.answer}!`);
