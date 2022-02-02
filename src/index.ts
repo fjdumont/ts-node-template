@@ -1,3 +1,4 @@
-import { Environment } from "./environment";
+import dotenv from "dotenv";
+dotenv.config();
 
-console.log(`The answer is ${Environment.answer}!`);
+console.log(`The answer is ${process.env.ANSWER || 42}!`);
