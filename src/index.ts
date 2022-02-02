@@ -1,3 +1,5 @@
+console.clear();
+
 import dotenv from "dotenv";
 dotenv.config();
 
